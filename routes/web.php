@@ -21,6 +21,10 @@ Route::get('/contact', function () {
     return view('contact');
 }) -> name("contact");
 
+Route::get('/account', function () {
+    return view('account.index');
+}) -> name("account");
+
 Route::resources([
     'products' => ProductController::class,
 ]);

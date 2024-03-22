@@ -15,21 +15,18 @@
             <a href="{{ route('home') }}" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-gray-300 mr-4">
                 Home
             </a>
-            <a href="{{ route('dashboard') }}" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-gray-300 mr-4">
+            <a href="{{ route('dashboard') }}"
+                class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-gray-300 mr-4">
                 Dashboard
             </a>
-            <a href="{{ route('products.index') }}" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-gray-300 mr-4">
+            <a href="{{ route('products.index') }}"
+                class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-gray-300 mr-4">
                 Products
             </a>
-            <a href="{{ route('about') }}" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-gray-300 mr-4">
-                About
+            <a href="{{ route('account') }}" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-gray-300">
+                Account
             </a>
-            <a href="{{ route('services') }}" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-gray-300 mr-4">
-                Services
-            </a>
-            <a href="{{ route('contact') }}" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-gray-300">
-                Contact
-            </a>
+
         </div>
 
         <!-- Hamburger Menu for Mobile -->

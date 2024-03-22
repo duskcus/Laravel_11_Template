@@ -16,11 +16,39 @@ class ProductSeeder extends Seeder
         $products = [
             [
                 'name' => 'sword',
-                'description' => '1',
+                'description' => 'Melee weapon',
                 'price' => '1',
-                'amount' => '1',
+                'amount' => '10',
                 'category' => 'weapon',
-            ]
+            ],
+            [
+                'name' => 'shield',
+                'description' => 'Protects you in battle',
+                'price' => '2',
+                'amount' => '10',
+                'category' => 'armor',
+            ],
+            [
+                'name' => 'potion',
+                'description' => 'Restores health',
+                'price' => '5',
+                'amount' => '05',
+                'category' => 'consumable',
+            ],
+            [
+                'name' => 'bow',
+                'description' => 'Ranged weapon',
+                'price' => '3',
+                'amount' => '10',
+                'category' => 'weapon',
+            ],
+            [
+                'name' => 'spell book',
+                'description' => 'Contains powerful spells',
+                'price' => '10',
+                'amount' => '10',
+                'category' => 'magic',
+            ],
         ];
 
         foreach ($products as $product) {
