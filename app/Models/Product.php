@@ -17,6 +17,7 @@ class Product extends Model
         'image',
         'amount',
         'category',
+        'barcode',
         'created_at',
         'updated_at',
     ];

@@ -19,6 +19,7 @@ return new class extends Migration
             $table->string('image')->nullable();
             $table->integer('amount');
             $table->string('category');
+            $table->string('barcode')->nullable();
             $table->timestamps();
         });
     }

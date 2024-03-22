@@ -1,4 +1,4 @@
-@extends('layouts.layout')
+@extends('layouts.default')
 
 
 {{-- @SECTION FOR THE START CONTENT --}}
@@ -6,7 +6,7 @@
 
 
 <div class="container mx-auto px-4 py-8">
-    <h1 class="text-3xl font-bold mb-4">About Our Store</h1>
+    <h1 class="text-3xl font-bold mb-4">About</h1>
 
     <p class="mb-4">Welcome to our store! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget lorem sed libero interdum consectetur. Nunc malesuada, velit sed fermentum tincidunt, lacus metus gravida velit, sit amet consectetur libero arcu ac metus.</p>
 

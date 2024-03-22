@@ -1,4 +1,4 @@
-@extends('layouts.layout')
+@extends('layouts.default')
 
 
 {{-- @SECTION FOR THE START CONTENT --}}
@@ -6,7 +6,7 @@
 
 
 <div class="container mx-auto px-4 py-8">
-    <h1 class="text-3xl font-bold mb-4">Contact Us</h1>
+    <h1 class="text-3xl font-bold mb-4">Contact</h1>
 
     <p class="mb-4">We would love to hear from you. Please feel free to get in touch with us using the form below:</p>
 
@@ -31,7 +31,7 @@
 
         <div class="flex items-center justify-end">
             <button type="submit"
-                class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">Send</button>
+                class="bg-primary btn btn-secondary text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">Send</button>
         </div>
     </form>
 </div>

@@ -7,6 +7,8 @@ Route::get('/', function () {
     return view('index');
 }) -> name("home");
 
+Route::get('/dashboard', [ProductController::class, 'dashboard'])->name('dashboard');
+
 Route::get('/about', function () {
     return view('about');
 }) -> name("about");

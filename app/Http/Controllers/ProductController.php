@@ -96,4 +96,11 @@ class ProductController extends Controller
         return response()->json($products);
         return view('products.index', compact('product'));
     }
+
+
+    public function dashboard()
+    {
+        $products = Product::all();
+        return view('dashboard.index', compact('products'));
+    }
 }

@@ -12,8 +12,11 @@
 
         <!-- Navigation Links -->
         <div class="hidden md:block">
-            <a href="{{ route('home') }}"  class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-gray-300 mr-4">
+            <a href="{{ route('home') }}" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-gray-300 mr-4">
                 Home
+            </a>
+            <a href="{{ route('dashboard') }}" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-gray-300 mr-4">
+                Dashboard
             </a>
             <a href="{{ route('products.index') }}" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-gray-300 mr-4">
                 Products
