@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\MarketController;
 
 Route::get('/', function () {
     return view('index');
@@ -27,6 +28,7 @@ Route::get('/account', function () {
 
 Route::resources([
     'products' => ProductController::class,
+    'market' => MarketController::class,
 ]);
 
 Route::get('/api', [ProductController::class, 'apiList'])->name('api');

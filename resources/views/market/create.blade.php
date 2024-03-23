@@ -6,7 +6,7 @@
 
 
 <div class="container mx-auto px-4 py-8">
-    <h1 class="text-3xl font-bold mb-4">Contact Us</h1>
+    <h1 class="text-3xl font-bold mb-4">Market</h1>
 
     <p class="mb-4">We would love to hear from you. Please feel free to get in touch with us using the form below:</p>
 

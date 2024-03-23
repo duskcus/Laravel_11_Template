@@ -100,7 +100,6 @@ class ProductController extends Controller
 
     public function dashboard()
     {
-        $products = Product::all();
-        return view('dashboard.index', compact('products'));
+        return view('dashboard.index');
     }
 }

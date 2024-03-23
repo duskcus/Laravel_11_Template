@@ -6,10 +6,13 @@
     <!-- Hero section -->
     <section class="bg-neutral-content text-center py-40">
         <h1>Welcome to our website</h1>
-        <p>This website was created using Laravel, Livewire/Alpine, Tailwind, DaisyUI and Chart.js.</p>
+        <p>This website was created using Laravel, Livewire/Alpine, Tailwind/DaisyUI, and Chart.js.</p>
+        <br>
+        @livewire('search-bar')
         <br>
         <button class="btn btn-secondary text-white ">Learn More</button>
     </section>
+
 
     <!-- Featured content section -->
     <section class="text-center py-6">
@@ -18,13 +21,15 @@
                 <img class="mx-auto my-6" src="https://placehold.co/300x200/FFFFFF/000000/png">
                 <h2 class="text-xl font-bold">Integrated API</h2>
                 <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <a href="{{route('api')}}" class="mt-2"><button class="btn btn-secondary text-white my-6">Try Now</button></a>
+                <a href="{{ route('api') }}" class="mt-2"><button class="btn btn-secondary text-white my-6">Try
+                        Now</button></a>
             </div>
             <div class="w-full md:w-1/3 px-4">
                 <img class="mx-auto my-6" src="https://placehold.co/300x200/FFFFFF/000000/png">
                 <h2 class="text-xl font-bold">Dashboard</h2>
                 <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <a href="{{route('dashboard')}}" class="mt-2"><button class="btn btn-secondary text-white my-6">Try Now</button></a>
+                <a href="{{ route('dashboard') }}" class="mt-2"><button class="btn btn-secondary text-white my-6">Try
+                        Now</button></a>
             </div>
             <div class="w-full md:w-1/3 px-4">
                 <img class="mx-auto my-6" src="https://placehold.co/300x200/FFFFFF/000000/png">

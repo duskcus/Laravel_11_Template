@@ -23,6 +23,10 @@
                 class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-gray-300 mr-4">
                 Products
             </a>
+            <a href="{{ route('market.index') }}"
+                class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-gray-300 mr-4">
+                Market
+            </a>
             <a href="{{ route('account') }}" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-gray-300">
                 Account
             </a>
