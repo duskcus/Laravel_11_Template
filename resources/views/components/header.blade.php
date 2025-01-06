@@ -8,7 +8,7 @@
 
         <!-- Navigation Links -->
         <div>
-            <a href="{{ route('Home') }}"
+            <a href="{{ route('home') }}"
                 class="link no-underline block mt-4 lg:inline-block lg:mt-0 mr-4
                 {{ request()->routeIs('Home') ? 'text-primary' : 'hover:opacity-75' }}">
                 Home
